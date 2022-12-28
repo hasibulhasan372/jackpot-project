@@ -1,0 +1,803 @@
+/* Home Page Start   */
+
+/* Common CSS Start  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+img{
+    vertical-align: middle;
+}
+/* Common CSS End  */
+ /* Nav Bar Part Start  */
+ #header_part{
+    margin: 0;padding: 0;
+ }
+ .navbar{
+    background: #150035;
+ }
+ .navbar-nav{
+    margin-left: 25px;
+    padding-top: 25px;
+    
+ }
+ .nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .nav-link{
+    color: #944bff;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+ }
+ .nav-link:hover{
+    color: #ff39dc;
+ }
+ .header_btn{
+    padding-top: 10px;
+ }
+.signup{
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    background: linear-gradient( to top,#b50a93,#f936d6);
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 7px #661355;
+    transition: .5s ease-in-out;
+}
+.signup:hover{
+    color: #fff;
+    background: linear-gradient( to top,#5a10ca,#9c4cfb) ;
+    box-shadow: 0px 7px #3a0090;
+}
+.login{
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    background: linear-gradient( to top,#b50a93,#f936d6);
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 7px #661355;
+    transition: .5s ease-in-out;
+    margin-left: 10px;
+} 
+.login:hover{
+    color: #fff;
+    background: linear-gradient( to top,#5a10ca,#9c4cfb) ;
+    box-shadow: 0px 7px #3a0090;
+    
+}
+ /* Nav Bar Part Start  */
+ /* Banner part Start   */
+ .banner_part_one{
+    background: #150035;
+    padding-bottom: 170px;
+    padding-top: 10px;
+ }
+.banner_img{
+    width: 570px;
+}
+img{
+    width: 100%;
+}
+.upper_part{
+    padding-left: 100px;
+
+}
+.upper_part h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #fff;
+    padding-top: 100px;
+}
+.upper_part a{
+    font-size: 197px;
+    color: #fcb100;
+    font-weight: 700;
+    text-shadow: 2px 2px 40px #9911ca;
+    padding: 0;
+    line-height: .7;
+
+}
+.upper_part p{
+    font-size: 16px ;
+    font-weight: 400px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.play_now{
+   margin-top: 30px;
+   margin-left: 110px;
+   padding: 14px 30px;
+   font-size: 24px;
+   font-weight: 400;
+   text-transform: capitalize;
+   font-family: 'Anton', sans-serif;
+   border: none;
+   border-radius: 5px;
+   background: linear-gradient(to top ,#6015ce ,#994af8 );
+   box-shadow: 0 10px #3a0090;
+   color: #fff;
+   text-shadow: 5px 5px rgba(0, 0, 0, 0.247);
+   transition: all .5s ease-in-out;
+}
+.play_now:hover{
+    background: linear-gradient( to bottom, #fc37d9, #930676);
+    box-shadow: 0 10px #661355;
+}
+
+.banner_part_two{
+    
+    padding-bottom: 97px;
+    background: #0b001b;
+   
+}
+.reg_log_enjoy{
+    position: relative;
+    padding-top: 170px;
+}
+.curving_box{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -50%;
+    left: 0%;
+    transform: translateY(0%);
+
+}
+.get_ready{
+    position: absolute;
+    top:-50%;
+    left: 33%;
+    border-left: 1px solid #000;
+}
+.enjoy_box{
+    position: absolute;
+    top:-50%;
+    left: 66%;
+    border-left: 1px solid #000;
+}
+.reg_box_in{
+    text-align: center;
+    padding: 30px 38px;
+    background: #5e13cc;
+    box-shadow: 0px 7px #2c0565;
+    border-radius: 5px;
+    
+}
+.reg_box_in .sl{
+    color: #f5a810;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+.reg_box_in h3{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+}
+.reg_box_in p{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.games_heading{
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #ed9614;
+    text-transform: capitalize;
+}
+.play_now_game{
+    padding-top: 55px;
+   
+}
+.play_now_img{
+    position: relative;
+}
+.play_now_img .overly_paly_now{
+   position: absolute;
+   top:0%;
+   left: 0%;
+   background: rgba(0, 0, 0, 0.534);
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   transition: .5s ease-in-out;
+}
+.overly_paly_now h3{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    padding-top: 144px;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.overly_paly_now:hover{
+    opacity: 1;
+}
+ /* Banner part End   */
+ /* Spin Part Start  */
+#spin_part{
+    background: #150035;
+    padding-top: 105px;
+    padding-bottom: 30px;
+
+}
+.unlock_spin h3{
+    color: #f5a810;
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 76px;
+    font-family: 'Anton', sans-serif;
+}
+.unlock_spin p{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 63px;
+    padding-bottom: 60px;
+
+}
+.claim_now{
+    text-align: left;
+}
+ /* Spin Part End  */
+
+ /* Pricing part Start  */
+#pricing_part{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #0b001b;
+}
+.pricing_plan h3{
+    color: #f5a810;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 94px;
+}
+.trial_plan{
+    padding-top: 60px;
+    background: linear-gradient(to bottom,#9848f8,#6519d2);
+    padding-bottom: 50px;
+    position: relative;
+    transition: .5s ease-in-out;
+
+}
+.trial_text h4{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+}
+.trial_text h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+.trial_text p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 14px;
+  
+}
+
+.trial_text .price_based{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 14px;
+}
+.trial_text .featured{
+    padding: 14px 136px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient( to bottom, #fc37d9, #930676);
+    box-shadow: 0 10px #661355;
+    color: #fff;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.247);
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: -9%;
+    left: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in-out;
+ }
+.trial_plan .choose_now{
+    margin-top: 30px;
+    margin-left: 110px;
+    padding: 14px 30px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to top ,#6015ce ,#994af8 );
+    box-shadow: 0 10px #3a0090;
+    color: #fff;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.247);
+    transition: .5s ease-in-out;
+    position: absolute;
+    bottom: -2%;
+    left: 0%;
+ }
+.trial_plan:hover .choose_now ,.trial_plan:hover .featured{
+    background: linear-gradient( to bottom, #fc37d9, #930676);
+    box-shadow: 0 10px #661355;
+    visibility: visible;
+    opacity: 1;
+    transition: .5s ease-in-out;
+    
+}
+.trial_plan:hover{
+    transform: translateY(30px);
+}
+ /* Pricing part End  */
+
+ /* FAQ And TOurnament part  */
+ #faq_tournament{
+    padding: 95px 0;
+    background: #150035;
+ }
+ .faq_header{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000000;
+   
+ }
+ .faq_header h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #feb803;
+    text-shadow: 0px 0px 30px #930676;
+   
+ }
+
+ .faq_body{
+    padding-top: 58px;
+ }
+ .accordion-drop-down{
+    padding: 27px;
+    transition: .5s ease-in-out;
+    margin-bottom: 33px;
+    
+}
+.accordion-drop-down:hover{
+    border: 1px solid #fcb100;
+}
+.accordion-header{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px ;
+    font-weight: 400;
+    color: #fff;
+}
+.accordion-header a{
+    color: #fff;
+    margin-left: 29%;
+}
+
+
+.accordion-body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    padding-top: 26px;
+    padding-bottom: 22px;
+    text-align: justify;
+}
+.tournament_header h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #feb803;
+    text-shadow: 0px 0px 30px #930676;
+    
+   
+}
+.tournament_header{
+    padding-bottom: 43px;
+    border-bottom: 2px solid #000000;
+   
+ }
+ .tournament_body{
+    margin-top: 34px;
+ }
+
+ .count_down_title_box strong{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 15px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    }
+#countdown{
+    display: inline-block;
+}
+ .countdown_box{
+    display: inline-block;
+    border:1px solid #ed9614;
+    height: 68px;
+    width: 68px;
+    text-align: justify;
+    border-radius: 5px;
+    margin-left: 18px;
+    text-align: center;
+    transition: .5s ease-in-out;
+    color: #ed9614;
+ }
+.buji_nai{
+    padding-left: 0;
+}
+#hours{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ed9614;
+    transition: .5s ease-in-out;
+    padding-top: 5px;
+}
+#minutes{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ed9614;
+    transition: .5s ease-in-out;
+    padding-top: 5px;
+}
+#seconds{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ed9614;
+    transition: .5s ease-in-out;
+    padding-top: 5px;
+}
+.winner_part{
+    margin-top: 35px;
+}
+.winner_item{
+    max-height: 277px;
+}
+.winner_list{
+    border-bottom: 2px solid #000;
+    padding: 15px 0;
+    width: 397px;
+}
+.winner_list a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 100px;
+}
+
+.winner_list img{
+   height: 15px;
+   width: 15px;
+   margin-right: 90px;
+}
+.winner_list .winning_amount{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  
+}
+.mCustomScrollbar{
+    color: #fff;
+}
+ /* FAQ And TOurnament End  */
+
+ /* Subs And payment Part Start  */
+ #subs_payment{
+    background: linear-gradient( to bottom, #9949f8 , #5b10cb);
+    padding: 35px 0 30px;
+    border-bottom: 7px solid #3a0090;
+    
+ }
+ .subs_header h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 5px 0px rgba(0, 0, 0, 0.336);
+ }
+ .subs_info{
+    margin-top: 13px;
+ }
+ .subs_info #email{
+    background: none;
+    border: 1px solid #3a0090;
+    height: 40px;
+    width: 495px;
+    padding-left: 15px;
+    color: #150035;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);
+ }
+
+ .subs_info #submit{
+    border: 1px solid #3a0090;
+    padding: 5px 17px 9px;
+    margin-left: -5px;
+    background: url(../images/paper_plane.png);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.payment_system{
+    margin-top: 10px;
+}
+.payment_system a{
+    padding-right: 10px;
+}
+
+ /* Subs And payment Part End  */
+ 
+ /* Footer part Start  */
+ #footer-part{
+    padding-top: 55px;
+    padding-bottom: 35px;
+    background-color: #0b001b;
+    border-bottom: 1px solid #290a59;
+ }
+
+ .about_us h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+ }
+  .about_us p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 26px;
+    padding-bottom: 30px;
+ }
+ .social-media-con a{
+    height: 48px;
+    width: 48px;
+    background-image: linear-gradient( #9a4af8, #6115cf);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    box-shadow: 0 3px #3a0090;
+    transition: .5s ease-in-out;
+ }
+ .social-media-con a:hover{
+    background-image: linear-gradient(#f734d5, #ae058d);
+    box-shadow: 0px 3px #661355;
+ }
+ .social-media-con a i{
+    color: #fff;
+    font-size: 18px;
+ }
+
+ .links_type a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 22px;
+ }
+ .sheild_protect a{
+    margin-bottom: 30px;
+ }
+ .sheild_protect .shield_1 img{
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 40px;
+    width: 70px;
+    height: 70px;
+ }
+ .sheild_protect .big_pro {
+	width: 156px;
+	height: 59px;
+	background: none;
+	border: none;
+}
+.sheild_protect .big_pro .safe_secure {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.register_user .small_pro .user {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.register_user .small_pro {
+	width: 156px;
+	height: 59px;
+	background: none;
+	border: none;
+    margin-left: 40px;
+}
+.shield_2{
+    width: 67px;
+    height: 87px;
+}
+ /* Footer part End  */
+
+ /* Copy Write Part Start  */
+ #copy_write{
+    background-color: #0b001b;
+    padding: 20px 0;
+ }
+ .dec_part a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+ }
+ .dec_part a i{
+    font-size: 14px;
+ }
+ /* Copy Write Part End  */
+ 
+ /* Home Page End   */
+
+
+
+
+
+
+
+
+
+
+ /* About Us Page Start  */
+
+ /* About Us Banner Part Start  */
+.about_us h1{
+    color: #f3a311;
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-shadow: 7px 7px 5px #000;
+}
+.about_us_link{
+    margin-top: 10px;
+}
+.about_us_link a, i{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+.spin_part_2{
+    padding-top: 65px;
+}
+.spin_about_page{
+    padding-top: 95px;
+}
+.my-video-links{
+    margin-left: 20px;
+    color: #d51eb2;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+.my-video-links img{
+    margin-right: 10px;
+
+    height: 54px;
+    width: 54px;
+    filter: invert(28%) sepia(62%) saturate(6582%) hue-rotate(297deg) brightness(90%) contrast(97%);
+    -webkit-filter: invert(28%) sepia(62%) saturate(6582%) hue-rotate(297deg) brightness(90%) contrast(97%);
+ }
+ /* About Us Banner Part End  */
+
+  /* Games Part Start  */
+
+#games_part_about_page{
+    padding-top: 105px;
+    padding-bottom: 95px;
+    background-color: #150035;
+}
+
+/* Games Part End  */
+
+/* Play Now Part Start  */
+.play_now_slider .slick-dots{
+    text-align: center;
+    padding-top: 30px;
+}
+.slick-dots li{
+    display: inline-block;
+}
+.slick-dots li button{
+    font-size: 0;
+    background-color: #5b10cb;
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+    transition: .3s ease-in-out;
+}
+.slick-dots li button:hover{
+   height: 16px;
+   width: 16px;
+   background-color: #eb2dc9;
+
+}
+/* Play Now Part End  */
+
+
+
+ /* About Us Page End  */
