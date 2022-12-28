@@ -162,10 +162,14 @@ img{
     background: #0b001b;
    
 }
+.games_page_banner{
+    padding-bottom: 0;
+}
 .reg_log_enjoy{
     position: relative;
     padding-top: 170px;
 }
+
 .curving_box{
     margin: 0;
     padding: 0;
@@ -804,3 +808,22 @@ img{
 
 
  /* About Us Page End  */
+
+
+
+
+
+ /* Games page Start  */
+
+#games_page_games_part{
+    background-color: #0b001b;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.play_the_games{
+    margin-bottom: 30px;
+}
+
+
+
+ /* Games page End  */
