@@ -827,3 +827,18 @@ img{
 
 
  /* Games page End  */
+
+ /* Pricing Page Start  */
+.pricing_page_banner{
+    padding-bottom: 0;
+    background-color: #0b001b;
+}
+#pricing_part_pricing_page{
+    padding-bottom: 95px;
+    background-color: #0b001b;
+    padding-top: 70px;
+}
+.pricing-part-2nd{
+    margin-top: 80px;
+}
+ /* Pricing Page End  */
