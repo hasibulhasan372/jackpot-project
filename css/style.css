@@ -988,4 +988,93 @@ img{
     font-weight: 400px;
     font-style: 14PX;
 }
+.signup_btn{
+    margin-top: 28px;
+    padding: 12px 0;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400px;
+    font-size: 20PX;
+    border: none;
+   border-radius: 5px;
+   background: linear-gradient(to top ,#6015ce ,#994af8 );
+   box-shadow: 0 5px #3a0090;
+   color: #fff;
+   text-shadow: 5px 5px rgba(0, 0, 0, 0.247);
+   transition: all .5s ease-in-out;
+}
+.signup_btn:hover{
+    background: linear-gradient( to bottom, #fc37d9, #930676);
+    box-shadow: 0 5px #661355;
+}
+.sign_in{
+    display: flex;
+    padding-top: 40px;
+}
+.sign_in p{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400px;
+    font-style: 16PX;
+}
+.sign_in p a{
+    color: #ff39dc;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400px;
+    font-style: 16PX;
+    text-transform: capitalize;
+}
+.reg_with{
+    margin-left: 90px;
+}
+.sign_in p a i{
+            font-size: 16px;
+            padding: 15px 17px;
+            margin-left: 14px;
+    border: none;
+    background: linear-gradient(to top ,#6015ce ,#994af8 );
+    box-shadow: 0 5px #3a0090;
+    color: #fff;
+    text-shadow: 5px 0px rgba(0, 0, 0, 0.247);
+    transition: all .5s ease-in-out;
+}
+.sign_in p a i:hover{
+    background: linear-gradient( to bottom, #fc37d9, #930676);
+    box-shadow: 0 5px #661355;
+}
+.reg_fb{
+margin-right: 14px;
+position: relative;
+display: inline-block;
+
+}
+.reg_fb:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 29px;
+    background: #3a0090;
+    top: 8px;
+    right: -14px;
+
+}
 /* SignIn Page End  */
+
+
+
+/* Log in Page Start  */
+.log_in{
+    padding-top: 25px;
+}
+.log_in p span{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400px;
+    font-style: 16PX;
+    margin-left: 180px;
+}
+.log_in p a{
+    color: #ff39dc;
+}
+
+/* Log in Page End  */
