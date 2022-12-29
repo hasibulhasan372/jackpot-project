@@ -1078,3 +1078,18 @@ display: inline-block;
 }
 
 /* Log in Page End  */
+
+
+/* Error page Start  */
+
+.error_img{
+    padding-top: 96px;
+}
+.go_back_home{
+    margin-top: 65px;
+}
+.go_back_home a{
+    text-transform: none;
+}
+
+/* Error page End  */
