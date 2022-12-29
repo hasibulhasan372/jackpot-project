@@ -584,19 +584,20 @@ img{
     font-size: 16px;
     font-weight: 400;
  }
-
+ .input_form input::placeholder{
+    color: #3a0090;
+ }
  .input_form .submit {
     border: 1px solid #3a0090;
     margin-left: -5px;
     background: none;
-    height: 39px;
-    width: 40px;
-
-    
+    padding: 6px 15px 8px; 
+     
  }
-.submit img{
-    width: 14px;
-    height: 14px;
+.submit .submit_paper_plane{
+   height: 14px;
+   width: 14px;
+   filter: invert(18%) sepia(31%) saturate(5735%) hue-rotate(255deg) brightness(81%) contrast(141%);
 }
 .payment_system{
     margin-top: 10px;
@@ -887,7 +888,7 @@ img{
 .address P{
     font-family: 'Nunito', sans-serif;
     font-weight: 400px;
-    font-style: 20PX;
+    font-size: 20PX;
     color: #FFF;
     line-height: 26PX;
 
@@ -896,3 +897,95 @@ img{
  /* Contact page End  */
 
 
+
+
+
+
+
+/* SignIn Page Start  */
+
+#sign_in_part{
+  background-color: #0b001b;
+  padding-top: 215px;
+  padding-bottom: 95px;
+}
+
+.sign_up_list h3{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400px;
+    font-size: 24PX;
+    color: #FFF;
+    padding-bottom: 15px;
+}
+.sign_up_list p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400px;
+    font-style: 16PX;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+}
+.sign_up_list p:after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    background: #fff;
+    bottom: -15px;
+    left: 0;
+    width: 70px;
+    border-radius: 30px;
+
+}
+.signup_info{
+    padding-top: 58px;
+}
+.type_name{
+    border-bottom: 2px  solid #fff;
+    width: 47%;
+    margin-right: 30px;
+ 
+}
+.type_user{
+    margin-right: 0;
+}
+#name{
+    background: none;
+    border: none;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.type_name input::placeholder{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400px;
+    font-style: 14PX;
+}
+
+.type_name a i{
+    font-size: 14px;
+    padding-left: 98px;
+}
+.signup_mail{
+    padding-top: 60px;
+    border-bottom: 2px  solid #fff;
+    width: 100%;
+    
+}
+#mail_add{
+    background: none;
+    border: none;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.signup_mail a i{
+    font-size: 14px;
+    padding-left: 434px;
+}
+.signup_mail input::placeholder{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400px;
+    font-style: 14PX;
+}
+/* SignIn Page End  */
