@@ -187,20 +187,67 @@
 	padding-bottom: 35px;
 	margin-bottom: 53px;
 }
+.trial_plan .choose_now{
+    box-shadow: 0 5px #3a0090;
+}
+.trial_plan:hover .choose_now ,.trial_plan:hover .featured{
+    box-shadow: 0 5px #661355;
+}
+#faq_tournament {
+	padding: 30px 0;
+	
+}
+.faq_header h2 {
+	font-size: 26px;
+}
+.faq_body {
+	padding-top: 16px;
+}
+.accordion-button .down_arrow{
+    margin-left: 44px;
+}
+.accordion-button .down_arrow_3{
+    margin-left: 44px;
+}
 
+.accordion-button {
+	line-height: 24px;
+}
+.tournament_header h2 {
+	font-size: 26px;
+}
+.tournament_header {
+	padding-bottom: 24px;
+}
+.tournament_body {
+	margin-top: 20px;
+}
 
+.count_down_title_box strong {
+	margin-bottom: 10px;
+}
+.winner_list a {
+	font-size: 14px;
+}
+.winner_item {
+margin-left: 0;
+padding-left: 0;
+}
+.subs_header h3 {
+	font-size: 24px;
+}
+.subs_header{
+padding-top: 10px;
+}
+.linksabout_us{
 
+}
+.links_add{
+    padding-top: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.footer_about_us h3 {
+	font-size: 26px;
  }
 
 

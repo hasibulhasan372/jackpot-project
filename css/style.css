@@ -469,6 +469,12 @@ img{
     color: #fff;
     margin-left: 29%;
 }
+.accordion-button .down_arrow{
+    margin-left: 240px;
+}
+.accordion-button .down_arrow_3{
+    margin-left: 279px;
+}
 
 
 .accordion-body{
@@ -554,6 +560,9 @@ img{
     transition: .5s ease-in-out;
     padding-top: 5px;
 }
+.mCSB_inside  .mCSB_container {
+	margin-right: 20px;
+}
 .winner_part{
     margin-top: 35px;
 }
@@ -563,27 +572,28 @@ img{
 .winner_list{
     border-bottom: 2px solid #000;
     padding: 15px 0;
-    width: 397px;
+    width: 100%;
 }
 .winner_list a{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    margin-right: 100px;
+    
 }
 
-.winner_list img{
-   height: 15px;
-   width: 15px;
-   margin-right: 90px;
+.country_flag img{
+    height: 15px;
+    width: 15px;
+    margin-left: 25%;
 }
+
 .winner_list .winning_amount{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-  
+    float: right;
 }
 .mCustomScrollbar{
     color: #fff;
@@ -611,7 +621,7 @@ img{
     background: none;
     border: 1px solid #3a0090;
     height: 40px;
-    width: 495px;
+    width: 84%;
     padding-left: 15px;
     color: #fff;
     font-family: 'Nunito', sans-serif;
@@ -650,14 +660,14 @@ img{
     border-bottom: 1px solid #290a59;
  }
 
- .about_us h3{
+ .footer_about_us h3{
     font-family: 'Anton', sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
     padding-bottom: 30px;
  }
-  .about_us p{
+  .footer_about_us p{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 200;
@@ -1127,3 +1137,10 @@ display: inline-block;
 }
 
 /* Error page End  */
+
+.accordion-button .down_arrow{
+    margin-left: 240px;
+}
+.accordion-button .down_arrow_3{
+    margin-left: 279px;
+}
