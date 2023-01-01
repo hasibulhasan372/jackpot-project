@@ -248,12 +248,34 @@ padding-top: 10px;
 
 .footer_about_us h3 {
 	font-size: 26px;
- }
-
+}
+ /* About page Start  */
+ .spin_about_page {
+	padding-top: 15px;
+}
+.unlock_spin {
+	text-align: left;
+}
+.my-video-links {
+	margin-left: 14px;
+	
+}
+#games_part_about_page {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #150035;
+}
+.games_heading {
+	font-size: 34px;
+}
+ /* About page End  */
 
 /* Pricing Page Responsive Start   */
-.membership_plan{
-    font-size: 39px;
+.responsive_pricing_banner{
+    padding-bottom: 10px;
+}
+.about_us h1 {
+	font-size: 34px;
 }
 /* Pricing Page Responsive End   */
 
