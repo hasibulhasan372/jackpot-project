@@ -251,10 +251,119 @@ padding-top: 10px;
  }
 
 
+/* Pricing Page Responsive Start   */
+.membership_plan{
+    font-size: 39px;
+}
+/* Pricing Page Responsive End   */
+
+/* Connect or FAQ page Start  */
+.connect_page_navbar{
+   padding-bottom: 20px;
+}
+.contact_page_body{
+    padding-bottom: 0;
+}
+.contact_page_banner {
+	padding-bottom: 20px;
+}
+.about_us{
+    padding-bottom: 62px;
+}
+#contact-us {
+	padding-top: 85px;
+	padding-bottom: 29px;
+}
+.location a {
+	height: 68px;
+	width: 68px;
+}
+.address{
+    margin-bottom: 15px;
+}
+.address h5 {
+	font-size: 19PX;
+	padding-bottom: 12px;
+}
+.address P {
+	font-size: 16PX;
+	line-height: 22PX;
+}
+/* Connect or FAQ page End  */
 
 
+/* Signup Page Start  */
+.signup_banner{
+    padding-bottom: 11px;
+}
+#sign_in_part {
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+.type_name {
+	width: 90%;
+	margin-right: 0;
+}
+#name {
+	padding-bottom: 18px;
+	margin-top: 15px;
+	width: 93%;
+}
+.type_name a i {
+	font-size: 14px;
+	padding-left: 0px;
+    float: right;
+}
+.signup_mail {
+	padding-top: 40px;
+	width: 90%;
+}
+#mail_add {
+    width: 93%;
+}
+.signup_mail a i {
+	font-size: 14px;
+	padding-left: 0px;
+    float: right;
+}
+.sign_in {
+	padding-top: 11px;
+}
+.sign_in p a {
+	line-height: 50px;
+}
+.reg_with {
+	margin-left: 0px;
+}
+.log_in p span {
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400px;
+	font-style: 16PX;
+	margin-left: 0;
+	display: inline-block;
+	padding-top: 20px;
+}
+/* Signup Page End  */
 
 
+/* SignIn Page Start  */
+.log_in p span {
+	margin-left: 0;
+	display: inline-block;
+	padding-top: 20px;
+}
+/* SignIn Page End */
+
+
+/* Error page Start  */
+.error_img {
+	padding-top: 0px;
+}
+.error_page_banner{
+    padding-bottom: 40px;
+}
+/* Error page End  */
 
 
 

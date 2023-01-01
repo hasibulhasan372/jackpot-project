@@ -904,6 +904,24 @@ img{
     padding-top: 160px;
     padding-bottom: 125px;
 }
+#navabr_section{
+    background: #150035;
+
+}
+#contact_page_1st_section{
+    padding-bottom: 100px;
+    position: relative;
+}
+
+
+.contact_page_banner{
+    padding-bottom: 50px;
+}
+#contact_page_1st_section .contact_page_position{
+    position: absolute;
+    bottom: -50%;
+
+}
 .contact_part{
     padding-top: 60px;
 }
@@ -924,7 +942,7 @@ img{
 .address h5{
     font-family: 'Anton', sans-serif;
     font-weight: 400px;
-    font-style: 24PX;
+    font-size: 24PX;
     color: #FFF;
     padding-bottom: 22px;
 
@@ -947,13 +965,35 @@ img{
 
 
 /* SignIn Page Start  */
-
+.signup_banner_part{
+    padding-bottom: 0;
+}
 #sign_in_part{
   background-color: #0b001b;
   padding-top: 215px;
   padding-bottom: 95px;
 }
-
+.signup_reg_njoy_log{
+    margin-top: 130px;
+}
+.signup_reg_box {
+	margin-top: 0;
+	bottom: -122px;
+	position: absolute;
+	left: 0%;
+}
+.signup_ready_box{
+    margin-top: 0;
+	bottom: -122px;
+	position: absolute;
+	left: 33%;
+}
+.signup_enjoy_box{
+    margin-top: 0;
+	bottom: -122px;
+	position: absolute;
+	left: 66%;
+}
 .sign_up_list h3{
     font-family: 'Anton', sans-serif;
     font-weight: 400px;
@@ -984,9 +1024,9 @@ img{
     padding-top: 58px;
 }
 .type_name{
-    border-bottom: 2px  solid #fff;
     width: 47%;
     margin-right: 30px;
+    border-bottom: 2px solid #fff;
  
 }
 .type_user{
@@ -996,7 +1036,8 @@ img{
     background: none;
     border: none;
     color: #fff;
-    padding-bottom: 15px;
+    padding: 13px 0;  
+    width: 94%;
 }
 .type_name input::placeholder{
     color: #fff;
@@ -1007,7 +1048,7 @@ img{
 
 .type_name a i{
     font-size: 14px;
-    padding-left: 95px;
+    float: right;
 }
 .signup_mail{
     padding-top: 60px;
@@ -1019,13 +1060,15 @@ img{
     background: none;
     border: none;
     color: #fff;
-    padding-bottom: 15px;
+    padding: 13px 0; 
+    width: 97%;
 }
 
 .signup_mail a i{
     font-size: 14px;
-    padding-left: 430px;
+    float: right;
 }
+
 .signup_mail input::placeholder{
     color: #fff;
     font-family: 'Nunito', sans-serif;
@@ -1065,7 +1108,7 @@ img{
     color: #ff39dc;
     font-family: 'Nunito', sans-serif;
     font-weight: 400px;
-    font-style: 16PX;
+    font-size: 16PX;
     text-transform: capitalize;
 }
 .reg_with{
